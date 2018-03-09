@@ -1,5 +1,47 @@
-body{
-	background-color:white;
-	color:gray;
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+#main{
+	color: gray;
+	background-color: white;
 	font-family: arial, serif;
 }
+
+
+body{
+	margin: 0 auto;
+	overflow: scroll;
+	min-width: 1000px;
+}
+
+img {
+	position: relative;
+	width: 300px;
+	left: 35%;
+	padding:10px;
+	margin:20px auto;
+}
+.grouping{
+	top: 20px;
+
+}
+
+/*
+.lookup{
+	position: relative;
+	width: 600px;
+	left:15%;
+	margin: 10px auto;
+
+}
+.clickers{
+	position: relative;
+	width: 200px
+	margin: 10px auto;
+
+}
+*/
