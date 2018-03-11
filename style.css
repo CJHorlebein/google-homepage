@@ -20,28 +20,24 @@ body{
 
 img {
 	position: relative;
-	width: 300px;
-	left: 35%;
-	padding:10px;
-	margin:20px auto;
+	top:133px;
+	width: 320px;
+	left: 33%;
 }
+
+input[type=text]{
+	width:480px;
+	height:50px;
+}
+
+.lookup {
+	position: relative;
+	top: 100px;
+	left:250px;
+}
+
 .grouping{
-	top: 20px;
-
-}
-
-/*
-.lookup{
 	position: relative;
-	width: 600px;
-	left:15%;
-	margin: 10px auto;
-
+	top: 130px;
+	left: 350px;
 }
-.clickers{
-	position: relative;
-	width: 200px
-	margin: 10px auto;
-
-}
-*/
