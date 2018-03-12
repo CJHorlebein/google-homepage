@@ -5,50 +5,87 @@
 }
 
 #main{
-	color: gray;
 	background-color: white;
-	font-family: arial, serif;
+	font-family: serif;
 }
 
-#square{
-	width:20px;
+#login{
+	background-color: rgb(68,134,249);
+	border-radius: 0;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: arial;
+	padding: 7.5px 13px;
+	border: 0;
+	margin: 0;
+	vertical-align: middle;
 }
 
-.navigation {
-	font-size: 12px;
+#logo{
+	display: block;
+	width: 325px;
+	margin: 0 auto;
 }
-
-
 .leftnav{
 	position: relative;
-	margin: 0px 15px;
-	top: 15px
+	margin: 0px 16px;
+	top: 12px
 }
 
 .rightnav{
 	position: relative;
-	left: 87%;
+	top:-3px;
+}
+
+.rightside{
+	position: relative;
+	left: 87.2%;
+	top: -4px;
 }
 
 .leftnav a, .rightnav a{
 	position:relative;
-	padding-right: 15px;
 	text-decoration: none;
-	vertical-align: middle;
+	font-size: 12px;
+	font-weight: lighter;
+	font-family: arial;
+	color: black;
+	letter-spacing: .5px;
 }
 
+.leftnav a{
+	padding-right: 15px;
+}
+
+.rightnav a{
+	padding-right: 10px;
+}
+
+.rightlinks {
+	position: relative;
+	left: 111.5px;
+	top:-26px;
+}
+
+.rightlinks a img{
+	vertical-align: middle;
+	width:20px;
+	margin-right: 15px;
+	opacity: 0.5;
+}
 
 .coreelements{
 	position: relative;
-	left:34.5%;
-	top: 135px;
+	left:34.2%;
+	top: 100px;
 	width: 50%;
 	max-width: 590px;
 }
 
 .lookup{
 	position: relative;
-	top: -30px;
+	top: 200px;
 }
 
 .grouping{
@@ -57,7 +94,9 @@
 }
 
 .foot{
+	position: relative;
 	font-size: 12px;
+	top:560px;
 }
 
 body{
@@ -65,13 +104,7 @@ body{
 	min-width: 960px;
 }
 
-img {
-	position: relative;
-	width: 50%;
-}
-
 input[type=text]{
 	width:100%;
 	height:50px;
 }
-
