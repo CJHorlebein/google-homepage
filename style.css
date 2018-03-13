@@ -15,7 +15,7 @@
 	color: white;
 	font-size: 13px;
 	font-weight: bold;
-	font-family: arial;
+	font-family: "Liberation Sans",arial;
 	padding: 7.5px 13px;
 	border: 0;
 	margin: 0;
@@ -45,52 +45,60 @@
 	box-shadow:0px 2px 2px 2px rgb(227,227,227);
 }
 
-.leftnav{
-	position: relative;
-	margin: 0px 16px;
-	top: 12px
-}
-
-.rightnav{
-	position: relative;
-	top:-3px;
-}
-
-.rightside{
-	position: relative;
-	left: 87.2%;
-	top: -4px;
-}
-
-.leftnav a, .rightnav a{
+.first a, .second a{
 	position:relative;
 	text-decoration: none;
 	font-size: 12px;
 	font-weight: lighter;
 	font-family: arial;
-	color: black;
-	letter-spacing: .5px;
+	letter-spacing: ;
+	color: rgb(40,40,40);
+
 }
 
-.leftnav a{
-	padding-right: 15px;
+.first a:hover, .second a:hover{
+	text-decoration: underline;
 }
 
-.rightnav a{
-	padding-right: 10px;
+.navigation{
+	max-width: 800px;
 }
 
-.rightlinks {
+.first{
 	position: relative;
-	left: 111.5px;
-	top:-26px;
+	margin-left: 18px;
+	top: 12px;
 }
 
-.rightlinks a img{
+.first a{
+	margin-right: 15px;
+}
+
+.second{
+	position: relative;
+	top: -6px;
+	left: 1586px;
+}
+
+.second a{
+	margin-left: 10px;
+}
+
+.third{
+	position: relative;
+	left: 1706px;
+	top: -30px;
+}
+
+.third a img{
 	vertical-align: middle;
 	width:20px;
 	margin-right: 15px;
 	opacity: 0.5;
+}
+
+.third a img:hover{
+	opacity: 1;
 }
 
 .coreelements{
@@ -125,9 +133,24 @@
 }
 
 .foot{
-	position: relative;
-	font-size: 12px;
-	top:560px;
+	position: fixed;
+	background-color: rgb(244,244,244);
+	bottom: 0;
+	width:100%;
+	height: 40px;
+
+}
+
+li{
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+li a{
+	font-family: arial, serif;
+	font-size:12px;
+	text-decoration: none;
+	color: rgb(80,80,80);
 }
 
 body{
